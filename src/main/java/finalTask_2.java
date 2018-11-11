@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 public class finalTask_2 {
@@ -21,7 +21,7 @@ public class finalTask_2 {
                 }
             }
         }
-        System.out.println(Arrays.toString(mas));
+       // System.out.println(Arrays.toString(mas));
 
         scanner.close();
     }
