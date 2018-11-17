@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class finalTask_1 {
     public static void main(String[] args) {
-        int multiplier1[] = {1,2,3,4,5,6,7,8,9};
+        int [] multiplier1 = {1,2,3,4,5,6,7,8,9};
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Вывести таблицу умножения на ");

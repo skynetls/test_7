@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class finalTask_2 {
     public static void main(String[] args) {
-        int mas[] = new int[7];
+        int [] mas = new int[7];
 
         Scanner scanner = new Scanner(System.in);
 
