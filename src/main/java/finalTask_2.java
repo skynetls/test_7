@@ -3,11 +3,12 @@ import java.util.Scanner;
 
 public class finalTask_2 {
     public static void main(String[] args) {
-        int [] mas = new int[7];
-
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Задайте размер массива: ");
+        int y = scanner.nextInt();
+        int [] mas = new int[y];
 
-        for (int n = 0; n < 7; n++) {
+        for (int n = 0; n < y; n++) {
             System.out.println("Введите значение mas[" + n + "]");
             mas[n] = scanner.nextInt();
         }
@@ -21,7 +22,7 @@ public class finalTask_2 {
                 }
             }
         }
-       // System.out.println(Arrays.toString(mas));
+        //System.out.println(Arrays.toString(mas));
 
         scanner.close();
     }
